@@ -1,1 +1,537 @@
-<h1> متن تستی<h>
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      type="image/x-icon"
+    />
+
+    <!--=============== BOXICONS ===============-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!--=============== wazir font ===============-->
+
+    <link
+      href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-Variable-font-face.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Responsive real state website - Bedimcode</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">
+          <i class="bx bxs-home-alt-2"></i>تهرانلوکس
+        </a>
+        <div class="nav__menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="bx bx-home-alt-2"></i>
+                <span> صفحه اصلی </span>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#popular" class="nav__link">
+                <i class="bx bx-building-house"></i>
+                <span> مسکن ها</span>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#value" class="nav__link">
+                <i class="bx bx-award"></i>
+                <span> ارزش </span>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">
+                <i class="bx bx-phone"></i>
+                <span> تماس با ما </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Tem change button -->
+        <i class="bx bx-moon change-theme" id="theme-button"></i>
+        <a href="#" class="button nav__button"> عضویت </a>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__data">
+            <h1 class="home__title">مناسب ترین <br />ملک را <br />کشف کنید</h1>
+            <p class="home__description">
+              به سادگی تمام خصوصیات و ویژگی های مد نظر خود را لحاظ کنید ،تمامی
+              سختی ها برای یافتن محلی مناسب برای اسکانتان را فراموش کنید .
+            </p>
+            <form action="" class="home__search">
+              <i class="bx bxs-map"></i>
+              <input
+                type="search"
+                placeholder="یافتن بر اساس مکان شما"
+                class="home__search-input"
+              />
+              <button class="button">برسی</button>
+            </form>
+
+            <div class="home__value">
+              <div>
+                <h1 class="home__value-number">9K<span>+</span></h1>
+                <span class="home__value-desc">
+                  موقعیت <br />
+                  درجه یک</span
+                >
+              </div>
+              <div>
+                <h1 class="home__value-number">2K<span>+</span></h1>
+                <span class="home__value-desc">
+                  رضایت <br />
+                  مشتری</span
+                >
+              </div>
+              <div>
+                <h1 class="home__value-number">1K<span>+</span></h1>
+                <span class="home__value-desc">
+                  لوح ها و افتخارت <br />
+                  تیم تهرانلوکس</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="home__images">
+            <div class="home__orbe"></div>
+            <div class="home__img">
+              <img src="assets/img/home.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== LOGOS ====================-->
+      <section class="logos section">
+        <div class="logos__container container grid">
+          <div class="logos__img">
+            <img src="assets/img/logo1.png" alt="" />
+          </div>
+          <div class="logos__img">
+            <img src="assets/img/logo2.png" alt="" />
+          </div>
+          <div class="logos__img">
+            <img src="assets/img/logo3.png" alt="" />
+          </div>
+          <div class="logos__img">
+            <img src="assets/img/logo4.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <!--==================== POPULAR ====================-->
+      <section class="section" id="popular">
+        <div class="container">
+          <span class="section__subtitle"> بهترین انتخاب </span>
+          <h2 class="section__title">مسکن های محبوب <span>.</span></h2>
+          <div class="popular__container swiper">
+            <div class="swiper-wrapper">
+              <article class="popular__card swiper-slide">
+                <img
+                  src="assets/img/popular1.jpg"
+                  alt=""
+                  class="popular__img"
+                />
+                <div class="popular__data">
+                  <h2 class="popular__price">
+                    1,600,000,000 <span>تومان</span>
+                  </h2>
+                  <h3 class="popular__title">خانه ای مدرن در فرشته تهران</h3>
+                  <p class="popular__description">
+                    بلوارشریعتی خیابان یاس ،یاس هفتم پلاک 121 رو بروی بوستان
+                    فرشته
+                  </p>
+                </div>
+              </article>
+              <article class="popular__card swiper-slide">
+                <img
+                  src="assets/img/popular2.jpg"
+                  alt=""
+                  class="popular__img"
+                />
+                <div class="popular__data">
+                  <h2 class="popular__price">
+                    2,100,000,000 <span>تومان</span>
+                  </h2>
+                  <h3 class="popular__title">
+                    خانه ای با طراحی لاکچری در شرق شهر
+                  </h3>
+                  <p class="popular__description">
+                    بلوارشریعتی خیابان یاس ،یاس هفتم پلاک 121 رو بروی بوستان
+                    فرشته
+                  </p>
+                </div>
+              </article>
+              <article class="popular__card swiper-slide">
+                <img
+                  src="assets/img/popular3.jpg"
+                  alt=""
+                  class="popular__img"
+                />
+                <div class="popular__data">
+                  <h2 class="popular__price">
+                    1,200,000,000 <span>تومان</span>
+                  </h2>
+                  <h3 class="popular__title">ویلای زیبای لواسانات</h3>
+                  <p class="popular__description">
+                    بلوارشریعتی خیابان یاس ،یاس هفتم پلاک 121 رو بروی بوستان
+                    فرشته
+                  </p>
+                </div>
+              </article>
+              <article class="popular__card swiper-slide">
+                <img
+                  src="assets/img/popular4.jpg"
+                  alt=""
+                  class="popular__img"
+                />
+                <div class="popular__data">
+                  <h2 class="popular__price">
+                    1,100,000,000 <span>تومان</span>
+                  </h2>
+                  <h3 class="popular__title">
+                    بهترین انتخاب برای شما در محدوده ی سعادت آباد
+                  </h3>
+                  <p class="popular__description">
+                    بلوارشریعتی خیابان یاس ،یاس هفتم پلاک 121 رو بروی بوستان
+                    فرشته
+                  </p>
+                </div>
+              </article>
+              <article class="popular__card swiper-slide">
+                <img
+                  src="assets/img/popular5.jpg"
+                  alt=""
+                  class="popular__img"
+                />
+                <div class="popular__data">
+                  <h2 class="popular__price">
+                    2,500,000,000 <span>تومان</span>
+                  </h2>
+                  <h3 class="popular__title">
+                    طراحی بسیار مدرن دوستدار طبیعت در منطقه شمال غرب
+                  </h3>
+                  <p class="popular__description">
+                    بلوارشریعتی خیابان یاس ،یاس هفتم پلاک 121 رو بروی بوستان
+                    فرشته
+                  </p>
+                </div>
+              </article>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== VALUE ====================-->
+      <section class="value section" id="value">
+        <div class="value__container container grid">
+          <div class="value__images">
+            <div class="value__orbe"></div>
+            <div class="value__img">
+              <img src="assets/img/value.jpg" alt="" />
+            </div>
+          </div>
+          <div class="value__content">
+            <div class="value__data">
+              <span class="section__subtitle">ارزش ما</span>
+              <h2 class="section__title">
+                ارزشی که به شما می دهیم <span>.</span>
+              </h2>
+              <p class="value__description">
+                ما همیشه آماده هستیم تا با ارائه بهترین خدمات به شما کمک کنیم.
+                ما معتقدیم یک مکان خوب برای زندگی می تواند زندگی شما را بهتر
+                کند.
+              </p>
+            </div>
+            <div class="value__accordion">
+              <div class="value__accordion-item">
+                <header class="value__accordion-header">
+                  <i class="bx bxs-shield-x value__accordion-icon"></i>
+                  <h3 class="value__accordion-title">
+                    بهترین نرخ بهره در بازار
+                  </h3>
+                  <div class="value__accordion-arrow">
+                    <i class="bx bxs-down-arrow"></i>
+                  </div>
+                </header>
+                <div class="value__accordion-content">
+                  <p class="value__accordion-description">
+                    ما بهترین قیمت را برای شما ارائه میکنیم، ما تضمین می کنیم که
+                    هیچ تغییر قیمتی در ملک شما به دلیل هزینه های غیرمنتظره
+                    مختلفی که ممکن است ایجاد شود، وجود نداشته باشد.
+                  </p>
+                </div>
+              </div>
+              <div class="value__accordion-item">
+                <header class="value__accordion-header">
+                  <i class="bx bxs-x-square value__accordion-icon"></i>
+                  <h3 class="value__accordion-title">
+                    جلوگیری از بی ثباتی قیمت ها
+                  </h3>
+                  <div class="value__accordion-arrow">
+                    <i class="bx bxs-down-arrow"></i>
+                  </div>
+                </header>
+                <div class="value__accordion-content">
+                  <p class="value__accordion-description">
+                    ما بهترین قیمت را برای شما ارائه میکنیم، ما تضمین می کنیم که
+                    هیچ تغییر قیمتی در ملک شما به دلیل هزینه های غیرمنتظره
+                    مختلفی که ممکن است ایجاد شود، وجود نداشته باشد.
+                  </p>
+                </div>
+              </div>
+              <div class="value__accordion-item">
+                <header class="value__accordion-header">
+                  <i class="bx bxs-bar-chart-square value__accordion-icon"></i>
+                  <h3 class="value__accordion-title">بهترین قیمت های بازار</h3>
+                  <div class="value__accordion-arrow">
+                    <i class="bx bxs-down-arrow"></i>
+                  </div>
+                </header>
+                <div class="value__accordion-content">
+                  <p class="value__accordion-description">
+                    ما بهترین قیمت را برای شما ارائه میکنیم، ما تضمین می کنیم که
+                    هیچ تغییر قیمتی در ملک شما به دلیل هزینه های غیرمنتظره
+                    مختلفی که ممکن است ایجاد شود، وجود نداشته باشد.
+                  </p>
+                </div>
+              </div>
+              <div class="value__accordion-item">
+                <header class="value__accordion-header">
+                  <i class="bx bxs-check-square value__accordion-icon"></i>
+                  <h3 class="value__accordion-title">امنیت داده های شما</h3>
+                  <div class="value__accordion-arrow">
+                    <i class="bx bxs-down-arrow"></i>
+                  </div>
+                </header>
+                <div class="value__accordion-content">
+                  <p class="value__accordion-description">
+                    ما بهترین قیمت را برای شما ارائه میکنیم، ما تضمین می کنیم که
+                    هیچ تغییر قیمتی در ملک شما به دلیل هزینه های غیرمنتظره
+                    مختلفی که ممکن است ایجاد شود، وجود نداشته باشد.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== CONTACT ====================-->
+      <section class="contact section" id="contact">
+        <div class="contact__container container grid">
+          <div class="contact__images">
+            <div class="contact__orbe"></div>
+            <div class="contact__img">
+              <img src="assets/img/contact.png" alt="" />
+            </div>
+          </div>
+          <div class="contact__content">
+            <div class="contact__data">
+              <span class="section__subtitle">تماس با ما</span>
+              <h2 class="section__title">
+                به راحتی با ما ارتباط برقرار کنید <span>.</span>
+              </h2>
+              <p class="contact__description">
+                آیا برای پیدا کردن خانه رویایی شما مشکلی وجود دارد؟ برای خرید
+                خانه اول به راهنمایی نیاز دارید؟ یا نیاز به مشاوره در مورد مسائل
+                مسکونی دارید؟ فقط با ما تماس بگیرید
+              </p>
+            </div>
+            <div class="contact__card">
+              <div class="contact__card-box">
+                <div class="contact__card-info">
+                  <i class="bx bxs-phone-call"></i>
+                  <div class="">
+                    <h3 class="contact__card-title">شماره تماس</h3>
+                    <p class="contact__card-description">022.321.165.19</p>
+                  </div>
+                </div>
+                <button class="button contact__card-button">
+                  برقراری تماس
+                </button>
+              </div>
+              <div class="contact__card-box">
+                <div class="contact__card-info">
+                  <i class="bx bxs-message-rounded-dots"></i>
+                  <div class="">
+                    <h3 class="contact__card-title">چت</h3>
+                    <p class="contact__card-description">022.321.165.19</p>
+                  </div>
+                </div>
+                <button class="button contact__card-button">ارسال پیام</button>
+              </div>
+              <div class="contact__card-box">
+                <div class="contact__card-info">
+                  <i class="bx bxs-video"></i>
+                  <div class="">
+                    <h3 class="contact__card-title">ارتباط تصویری</h3>
+                    <p class="contact__card-description">022.321.165.19</p>
+                  </div>
+                </div>
+                <button class="button contact__card-button">
+                  برقراری تماس
+                </button>
+              </div>
+              <div class="contact__card-box">
+                <div class="contact__card-info">
+                  <i class="bx bxs-envelope"></i>
+                  <div class="">
+                    <h3 class="contact__card-title">ایمیل</h3>
+                    <p class="contact__card-description">thrnlux@exam.com</p>
+                  </div>
+                </div>
+                <button class="button contact__card-button">ارسال پیام</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== SUBSCRIBE ====================-->
+      <section class="subscribe section">
+        <div class="subscribe__container container">
+          <h1 class="subscribe__title">شروع همراه با تهرانلوکس</h1>
+          <p class="subscribe__description">
+            مشترک شوید و مبالغ فوق العاده جذاب را بیابید. با کمک ما، به زودی محل
+            سکونت خود را پیدا خواهید کرد.
+          </p>
+
+          <a href="#" class="button subscribe__button">شروع کنید</a>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+      <div class="footer__container container grid">
+        <div>
+          <a href="#" class="footer__logo"
+            ><i class="bx bxs-home-alt-2"></i> تهرانلوکس
+          </a>
+          <p class="footer__description">
+            هدف ما رفاه و آسودگی همه ی مردم <br />
+            و کمک برای یافتن بهترین مکان برای زندگی آنهاست
+          </p>
+        </div>
+
+        <div class="footer__content">
+          <div>
+            <h3 class="footer__title">درباره ما</h3>
+            <ul class="footer__links">
+              <li>
+                <a href="#" class="footer__link"> اعضای ما </a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">همکاری ها</a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">اخبار و رویداد ها</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="footer__title">شرکت</h3>
+            <ul class="footer__links">
+              <li>
+                <a href="#" class="footer__link"> نحوه ی کار ما</a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">سرمایه </a>
+              </li>
+              <li>
+                <a href="#" class="footer__link"> امنیت </a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="footer__title">پشتیبانی</h3>
+            <ul class="footer__links">
+              <li>
+                <a href="#" class="footer__link"> سوالات متداول</a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">مرکز پشتیبانی </a>
+              </li>
+              <li>
+                <a href="#" class="footer__link"> ارتباط با ما </a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="footer__title">ما را دنبال کنید</h3>
+            <ul class="footer__social">
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+                class="footer__social-link"
+                ><i class="bx bxl-facebook-circle"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                class="footer__social-link"
+                ><i class="bx bxl-instagram-alt"></i
+              ></a>
+              <a
+                href="https://www.telegram.com/"
+                target="_blank"
+                class="footer__social-link"
+                ><i class="bx bxl-telegram"></i
+              ></a>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer__info container">
+        <div class="footer__privacy">
+          <a href="#">شرایط و قراردادها</a>
+          <a href="#">سیاست حفظ حریم خصوصی</a>
+        </div>
+        <span class="footer__copy">&#169;AliSov </span>
+      </div>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="bx bx-chevrons-up"></i>
+    </a>
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
